@@ -5,12 +5,9 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
       - /bin/cp page2.html $DEPLOYPATH
       - /bin/cp page3.html $DEPLOYPATH
-      - /bin/cp style.scss $DEPLOYPATH
-      - /bin/cp style2.scss $DEPLOYPATH
-      - /bin/cp style3.scss $DEPLOYPATH
-      - /bin/cp script.scss $DEPLOYPATH
-      - /bin/cp script2.scss $DEPLOYPATH
-      - /bin/cp script3.scss $DEPLOYPATH
+      - /bin/cp script.js $DEPLOYPATH
+      - /bin/cp script2.js $DEPLOYPATH
+      - /bin/cp script3.js $DEPLOYPATH
       - /bin/cp -R image $DEPLOYPATH
       - /bin/cp -R unit mobil $DEPLOYPATH
       - /bin/cp -R wisata $DEPLOYPATH
