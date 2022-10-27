@@ -12,4 +12,9 @@ deployment:
       - /bin/cp script2.scss $DEPLOYPATH
       - /bin/cp script3.scss $DEPLOYPATH
       - /bin/cp -R image $DEPLOYPATH
+      - /bin/cp -R unit mobil $DEPLOYPATH
+      - /bin/cp -R wisata $DEPLOYPATH
       - /bin/cp -R css $DEPLOYPATH
+      - /bin/cp style.css $DEPLOYPATH
+      - /bin/cp style2.css $DEPLOYPATH
+      - /bin/cp style3.css $DEPLOYPATH
